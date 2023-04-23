@@ -1,0 +1,61 @@
+*{
+	box-sizing:border-box;
+}
+.product-details{
+	position:relative;
+}
+
+.card{
+	height:300px;
+	width:500px;
+	position:relative;
+	padding:10px;
+}
+.on-image{
+	position:absolute;
+	top:0px;
+	height:300px;
+	width:500px;
+	overflow:hidden;
+}
+.cardname{
+	color:#000;
+	margin:0;
+	position:relative;
+}
+#name{
+	color:#000;
+	font-size:15px;
+	width:100%;
+	position:absolute;
+	width:100%;
+	top:80px;
+	left:20px;
+	cursor:move;
+	
+}
+#customized{
+	position:relative;
+}
+
+#output{
+	/* manage uploaded color by css */
+	  /* filter: brightness(0%) invert(1); */ 
+	position:absolute;
+	right:20px;
+	top:80px;
+	cursor:move;
+}
+
+#range, .delete-img{
+	display:none;
+}
+.delete-img{
+	cursor: pointer;
+}
+
+#change-product-image{
+	height:300px;
+	width:500px;
+	object-fit:cover;
+}
